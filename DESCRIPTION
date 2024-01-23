@@ -1,7 +1,7 @@
 Package: changepointsVar
 Type: Package
 Title: Change-Points Detections for Changes in Variance
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Gianluca", "Sottile", role = "cre",
 		     email = "gianluca.sottile@unipa.it"),
 		     person("Giada", "Adelfio", role = "aut",
@@ -10,12 +10,11 @@ Description: Detection of change-points for variance of heteroscedastic Gaussian
 Depends: MASS, lars
 License: GPL-2
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-01-10 17:17:26 UTC; gianlucasottile
+Packaged: 2024-01-23 20:24:34 UTC; gianlucasottile
 Author: Gianluca Sottile [cre],
   Giada Adelfio [aut]
 Maintainer: Gianluca Sottile <gianluca.sottile@unipa.it>
 Repository: CRAN
-Date/Publication: 2018-01-10 18:20:26 UTC
+Date/Publication: 2024-01-23 20:53:04 UTC

@@ -111,7 +111,7 @@ jumpointsVar <- function(y, x=NULL, y.res=FALSE, k=min(30, round(length(y)/10)),
     min.r <- switch(type,
                     bic = which.min(crit),
                     # mdl = which.min(crit),
-                    rss = max.rss(crit, S, n))
+                    rss = maxRSS(crit, S, n))
 
     if(plot.it){
       plot(1:nRSS, crit, type="b", pch=19, xlab="Number of breakpoints", ylab=input$selection$type, frame.plot=FALSE)
@@ -268,7 +268,7 @@ seg.lm.fit0.gamma <- function(y, Z, PSI, control, round=FALSE, print.level=0){
   return(obj)
 }
 
-max.rss <- function(RSS, S, n){
+maxRSS <- function(RSS, S, n){
   var.mod <- RSS/n
   ll <- -(log(2*pi*var.mod)+1)*n/2
   new.r <- ((ll[length(ll)]-ll[-1])/(ll[length(ll)]-ll[2]))*(length(ll)-1) + 1

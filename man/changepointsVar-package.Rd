@@ -1,6 +1,6 @@
-\name{jumpointsVar-package}
-\alias{jumpointsVar-package}
 \docType{package}
+\name{changepointsVar-package}
+\alias{changepointsVar-package}
 \title{
 Change-Points Detections for Changes in Variance
 }
@@ -11,8 +11,8 @@ This algorithm allows breakpoint detections for changes in variation assuming th
 \tabular{ll}{
 Package: \tab jumpointsVar\cr
 Type: \tab Package\cr
-Version: \tab 0.1.0\cr
-Date: \tab 2018-01-18\cr
+Version: \tab 0.1.1\cr
+Date: \tab 2024-01-22\cr
 License: \tab GPL-2\cr
 }
 The function \code{\link{jumpointsVar}} allows to specify the variable in which to look for change-point in variance. The auxiliary function \code{\link{plot.jumpointsVar}} can be used to plot the brekpoints detected from the main algorithm.
