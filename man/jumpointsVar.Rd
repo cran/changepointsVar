@@ -53,7 +53,7 @@ This algorithm allows breakpoint detections for changes in variation assuming th
 
 The approach is a generalization of the \code{cumSeg} procedure proposed by Muggeo and Adelfio (2011) assuming that testing for stepwise changes in variance of a sequence of Gaussian random variables may be transformed equivalently to the case of testing for changes in mean of the squared residuals (from an estimated linear model that accounts for the mean behavior of the observed signal) assuming a gamma GLM with a log-link function.
 
-A variation of \code{\link{lars}} procedure adapted to the GLM case is considered to discard the spurious change-points on the basis of a generalized version of the BIC.
+A variation of \code{\link[lars]{lars}} procedure adapted to the GLM case is considered to discard the spurious change-points on the basis of a generalized version of the BIC.
 
 The proposed approach results in a very efficient algorithm even with n large and many change-points to be estimated.
 }

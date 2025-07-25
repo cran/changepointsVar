@@ -1,9 +1,9 @@
-23c289a08cdf0c841e4e0851e825b9c3 *DESCRIPTION
+039c8bc4078efbd6134a1e96230f5f43 *DESCRIPTION
 87605d2d35461e2e783a7e4387e92168 *NAMESPACE
 5c5146f7ec0e6b3dee9ed5b1e07319ec *R/jumpointsVar.R
-c4f00801f47f1fcde168d08ad61e5c36 *man/changepointsVar-internal.Rd
-bc06dc095cd4b0b13063549a5a82d549 *man/changepointsVar-package.Rd
+afea14adcddcdd3f78c1c830b05b3fe3 *man/changepointsVar-internal.Rd
+73ff773adf34af39c93f2c2d3962bf91 *man/changepointsVar-package.Rd
 24963aa44f48297acd90e7072aaabaa0 *man/fit.control.Rd
-08f7d99c5142f95c2de2fff12062a7e2 *man/jumpointsVar.Rd
+a5b7cdb3bf82a8cee59fd7a8e417da46 *man/jumpointsVar.Rd
 fe6ed68c1db0044cf206f4cf8f61161a *man/plot.jumpointsVar.rd
 7026f016e01fe5fe27ac174da373ec74 *man/sel.control.Rd
